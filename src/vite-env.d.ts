@@ -4,3 +4,7 @@ interface ImportMetaEnv {
   readonly VITE_MY_NAME: string;
 }
 declare const __PUBLIC_PATH__: string;
+declare module "*.svg";
+declare module "*.png";
+declare module "*.jpg";
+declare module "*.less";
